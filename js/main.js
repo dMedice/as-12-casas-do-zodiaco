@@ -1,6 +1,6 @@
 function MudaDesenho(){
-    const texto = document.querySelector("h1");
-      const texto2 = document.querySelector("h2");
+    const texto = document.querySelector("h2");
+      const texto2 = document.querySelector("h3");
     const imagem = document.querySelector("img");
     const valor = document.querySelector('#valor').value;
     
