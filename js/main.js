@@ -63,20 +63,20 @@ function MudaDesenho(){
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Dohko de Libra  foi um lendário e renomado Cavaleiro de Ouro do Santuário de Atena por ter lutado e sobrevivido à Guerra Santa contra Hades no Século XVIII ao lado de seu parceiro de batalhas, Shion de Áries. Após o fim do conflito e ser incumbido por Atena de vigiar o selo que aprisionava o espectros do Imperador dos Mortos, Dohko ficou recluso nos Cinco Picos Antigos de Rozan até o Século XX, período que passará a ser venerado como Mestre Ancião.";
     }
-    else if(valor=="sagitario"){
+    else if(valor=="sagitario") || (valor=="Sagitário") || (valor=="Sagitario") || (valor=="sagitário"){
         texto.innerHTML = "Sagitário";
         imagem.setAttribute("src","img/sagitario.jpg");
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Aiolos de Sagitário é o Cavaleiro de Ouro de Sagitário do século XX. Antes de morrer, há 13 anos, entregou Atena ainda bebê e sua Armadura de Ouro aos cuidados de Mitsumasa Kido, que estava viajando pela Grécia.";
     }
-    else if(valor=="capricornio"){
+    else if(valor=="capricornio") || (valor=="Capricórnio") || (valor=="capricórnio") || (valor=="Capricornio"){
         texto.innerHTML = "Capricórnio";
         imagem.setAttribute("src","img/capricornio.jpg");
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Shura de Capricórnio é o Cavaleiro de Ouro que protege a Casa de Capricórnio. Shura se considera o cavaleiro mais fiel a Atena, porém sua excessiva lealdade ao Santuário acabou levando-o a cometer uma série de equívocos.";
     }
     
-    else if(valor=="aquario"){
+    else if(valor=="aquario") || (valor=="Aquario") || (valor=="Aquário") || (valor=="aquário"){
         texto.innerHTML = "Aquário";
         imagem.setAttribute("src","img/aquario.jpg");
         imagem.setAttribute("width","300px");
