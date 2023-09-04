@@ -4,7 +4,7 @@ function MudaDesenho(){
     const imagem = document.querySelector("img");
     const valor = document.querySelector('#valor').value;
     
-    if(valor=="gemeos"){
+    if(valor=="gemeos") || (valor=="Gemeos") || (valor=="Gêmeos") || (valor=="gêmeos"){
         texto.innerHTML = "Gêmeos";
         imagem.setAttribute("src","img/gemeos.jpg");
         imagem.setAttribute("width","300px");
@@ -12,52 +12,52 @@ function MudaDesenho(){
         texto2.innerHTML = "Aspros de Gêmeos fora um dos Cavaleiro de Ouro veteranos do Santuário de Atena logo antes do começo oficial dos eventos da Guerra Santa contra Hades durante o Século XVIII que, por ter sua alma corrompida pela malícia de Yohma de Mefistófeles, acabou obcecado para obter a posição de Grande Mestre e por não a conseguir, planejou um golpe para usurpar a posição.";
     }
 
-    else if(valor=="escorpiao"){
+    else if(valor=="escorpiao") || (valor=="Escorpião") || (valor=="Escorpiao") || (valor=="escorpião"){
         texto.innerHTML = "Escorpião";
         imagem.setAttribute("src","img/escorpiao.jpg");
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Milo de escorpião é o Cavaleiro de Ouro de Escorpião que protege a casa de escorpião no santuário. Prezava muito a amizade, por isso passou a zelar por Hyoga depois da morte de seu amigo Camus de aquário.";
     }
     
-    else if(valor=="peixes"){
+    else if(valor=="peixes") || (valor=="Peixes"){
         texto.innerHTML = "Peixes";
         imagem.setAttribute("src","img/peixes.jpg");
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Afrodite de Peixes é o Cavaleiro de Ouro de Peixes e protetor da última Casa do Zodíaco do século XX. Usa variações de golpes com rosas, como o Rosas Diabólicas Reais.";
     }
-    else if(valor=="aries"){
+    else if(valor=="aries") || (valor=="Áries") || (valor=="Aries") || (valor="áries"){
         texto.innerHTML = "Áries";
         imagem.setAttribute("src","img/aries.jpg");
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Mu é o Cavaleiro de Ouro de Áries do século XX, que protege a Casa de Áries no Santuário. Hábil na restauração de armaduras, é ele quem conserta as Armaduras de Bronze do Seiya e dos outros antes da Batalha das Doze Casas do Zodíaco.";
     }
     
-    else if(valor=="touro"){
+    else if(valor=="touro") || (valor=="Touro"){
         texto.innerHTML = "Touro";
         imagem.setAttribute("src","img/touro.jpg");
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Aldebaran é o Cavaleiro de Ouro de Touro do século XX, que protege a Casa de Touro no Santuário. Dotado de uma resistência fora do comum, nem mesmo o Meteoro de Pégaso de Seiya conseguiu causar danos ao seu corpo. O Grande Chifre, alusão ao chifre de um touro bravo, é um golpe lançado quando está engatado com o inimigo.";
     }
-    else if(valor=="cancer"){
+    else if(valor=="cancer") || (valor=="câncer") || (valor=="Câncer") || (valor="Cancer"){
         texto.innerHTML = "Câncer";
         imagem.setAttribute("src","img/cancer.jpg");
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Manigold de Câncer, cujo nome verdadeiro é desconhecido, fora um dos Cavaleiros de Ouro veteranos durante o século XVIII. Ele foi o único discípulo do Grande Mestre Sage durante sua infância marcada constantemente pela violência e a morte, o fizeram não ter apreço pela vida ou em viver, mas através dos ensinamentos de seu mestre.";
     }
-    else if(valor=="leao"){
+    else if(valor=="leao") || (valor=="Leão") || (valor=="leão") || (valor=="Leao"){
         texto.innerHTML = "Leão";
         imagem.setAttribute("src","img/leao.jpg");
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Irmão de Aiolos. Apesar de sua personalidade explosiva, tem um coração puro que distingue rapidamente os justos, por isso foi um dos primeiros Cavaleiros de Ouro a reconhecer a autoridade de Atena.";
     }
     
-    else if(valor=="virgem"){
+    else if(valor=="virgem") || (valor=="Virgem"){
         texto.innerHTML = "Virgem";
         imagem.setAttribute("src","img/virgem.jpg");
         imagem.setAttribute("width","300px");
         texto2.innerHTML = "Shijima de Virgem é um dos Cavaleiros de Ouro que serviam o Santuário de Atena durante a Guerra Santa contra Hades no Século XVIII. Ele é conhecido como o Homem Silencioso  por sua quietude absoluta, bem como aquele que é mais próximo de Deus em sua geração.";
     }
-    else if(valor=="libra"){
+    else if(valor=="libra") || (valor=="Libra"){
         texto.innerHTML = "Libra";
         imagem.setAttribute("src","img/libra.jpg");
         imagem.setAttribute("width","300px");
